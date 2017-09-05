@@ -1,6 +1,30 @@
-html {
+body {
   font-family: helvetica;
+  text-align: center;
 }
-.nav ul li {
-  list-style: none;
+/*-------Header Section-------*/
+header {
+  background-image: url("../../resources/images/the-flatiron-building.png");
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.nav ul {
+  list-style-type: none;
+}
+.header ul li {
+  font-size: 18px;
+  padding: 18px;
+}
+header a {
+  color: white;
+}
+/*-------Main Section-------*/
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
