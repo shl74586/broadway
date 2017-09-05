@@ -13,12 +13,10 @@ header {
   font-weight: bold;
   color: white;
 }
-.nav ul {
-  list-style-type: none;
-}
-.header ul li {
+.header-nav ul li {
   font-size: 18px;
   padding: 18px;
+  list-style-type: none;
 }
 header a {
   color: white;
@@ -44,4 +42,25 @@ p {
   background-image: url("../../resources/images/the-flatiron-building.png");
   background-position: center;
   background-size: cover;
+}
+/*-------Footer Section-------*/
+footer {
+  text-align: left;
+  background-color: dimgray;
+}
+.brand {
+  font-size: 11px;
+  color: white;
+  float: left;
+  margin: 0;
+  padding-top: 4px;
+}
+.footer-nav ul li {
+  color: white;
+  list-style-type: none;
+  display: inline;
+}
+.footer-nav a {
+  color: white;
+  padding-left: 5px;
 }
