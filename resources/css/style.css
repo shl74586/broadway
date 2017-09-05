@@ -23,8 +23,25 @@ header {
 header a {
   color: white;
 }
-/*-------Main Section-------*/
-h3 {
+/*-------Main Section process Div-------*/
+.process h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+ section h3 {
   font-size: 23px;
   font-weight: bold;
+}
+/*-------CSS styling for all p elements EXCEPT for Designed in NY slogan-------*/
+p {
+  font-size: 14px;
+}
+/*-------Main Section slogan Div-------*/
+.slogan h4 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("../../resources/images/the-flatiron-building.png");
+  background-position: center;
+  background-size: cover;
 }
